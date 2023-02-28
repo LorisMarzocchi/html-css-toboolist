@@ -1,33 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
 .titolo {    
     font-size: 50px;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 
 }
+.logo{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
 main{
     height: 1000px;
     max-width: 100%;
-    background-color: gray;
+    background-color: #f6f8f9;
     margin: auto;
     padding: 30px;
-    position: relative;
+    
+
 }
 .contenitore1{
+    padding: 10px;
     width: 700px;
     height: 700px;
     background-color: white;
-    
+    margin: auto;
 
- 
 }
 
+.btn1 {
+    
+    color: white;
+    background-color: #61b8f2;
+    border-radius: 5px;
+    border: 2px solid #61b8f2;
+}
 
+.btn2 {
+    color: lightgray;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
 
+.btnedit, .btngoals, .btnrec, .btnweb, .btnmobile, .btnsales{
+    font-style: inherit;
+    font-size: 0.8em;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
 
+.btnedit{
+    background-color: #61b8f2;
+    border: 2px solid #61b8f2;
+}
 
+.btngoals{
+    background-color: violet;
+    border: 2px solid violet;
+}
 
+.btnrec{
+    background-color: #64c0a9;
+    border: 2px solid #64c0a9;
+}
 
+.btnmobile{
+    background-color: orange;
+    border: 2px solid orange;
+}
 
+.btnsales{
+    background-color: rgb(150, 150, 14);
+    border: 2px solid rgb(150, 150, 14);
+
+}
+
+.btnweb{
+    background-color: fuchsia;
+}
+
+ul{
+    list-style: none;
+}
+
+li{ 
+    margin: 20px;
+}
+
+.errore{
+    border: 2px solid red;
+    border-radius: 100%;
+    font-size: smaller;
+    font-weight: 750;
+    color: red;
+
+}
+.ok{
+    border: 2px solid #64c076;
+    border-radius: 100%;
+    font-size: smaller;
+    font-weight: 750;
+    color: #64c076;
+}
 
 
 
