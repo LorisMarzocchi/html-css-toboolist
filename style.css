@@ -1,13 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
+    font-weight: 750;
 }
 
 
 .titolo {    
     font-size: 50px;
     font-weight: 700;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    
 
 }
 .logo{
@@ -62,8 +62,8 @@ main{
 }
 
 .btngoals{
-    background-color: violet;
-    border: 2px solid violet;
+    background-color: #9c72e4;
+    border: 2px solid #9c72e4;
 }
 
 .btnrec{
@@ -83,7 +83,7 @@ main{
 }
 
 .btnweb{
-    background-color: fuchsia;
+    background-color: #d863a1;
 }
 
 ul{
