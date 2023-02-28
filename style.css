@@ -8,9 +8,12 @@ body{
     font-size: 50px;
     font-weight: 700;
     
+    
+    
 
 }
 .logo{
+    margin-bottom: 20px;
     margin-left: 20px;
     vertical-align: middle;
 }
